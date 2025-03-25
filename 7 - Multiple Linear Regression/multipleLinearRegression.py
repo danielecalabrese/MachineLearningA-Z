@@ -11,7 +11,7 @@ y = dataset.iloc[:, -1:].values
 # Encoding categorical data
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
-ct = ColumnTransformer(transformers=[('encorder', OneHotEncoder(), [0])], remainder='passthrough')
+ct = ColumnTransformer(transformers=[('encorder', OneHotEncoder(), [3])], remainder='passthrough')
 X = np.array(ct.fit_transform(X))
 
 # Splitting dataset into training data and test data
@@ -26,7 +26,4 @@ regressor.fit(X_train, y_train)
 # Predict the test set result
 y_pred = regressor.predict(X_test)
 np.set_printoptions(precision = 2)
-print(np.concatenate())
-
-
-
+print(np.concatenate((y_pred.reshape(len(y_pred),1), y_test.reshape(len(y_test),1)),1))
