@@ -4,11 +4,12 @@ Machine Learning A-Z: AI, Python &amp; R + ChatGPT Prize [2025] - Udemy Course
 https://www.udemy.com/course/machinelearning/
 https://colab.research.google.com/
 
-Script python will be written in version 3.11
+Per questi script userò l'ambiente ml311 (python 3.11). 
 
+## Importante:
+Ricordati di selezionare l'interprete corretto in alto a destra.
 
 This course is structured in 15 parts:
-
 - Part 1: Data Preprocessing
 - Part 2: Regression
 - Part 3: Classification
