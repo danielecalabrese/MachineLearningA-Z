@@ -7,7 +7,8 @@ https://colab.research.google.com/
 Per questi script userò l'ambiente ml311 (python 3.11). 
 
 ## Importante:
-Ricordati di selezionare l'interprete corretto in alto a destra.
+- Con i file ipynb Ricordati di selezionare l'interprete corretto in alto a destra;
+- I numeri delle cartelle sono l'indice delle lezioni sul sito di udemy. I file di esempio hanno indici diversi (le varei sezioni sono raggruppati in parti - vedi sotto);
 
 This course is structured in 15 parts:
 - **Part 1 - Data Preprocessing**: Importing the dataset with pandas, Matrix of Features and Target Vector, Training & Test Sets, Imputing Missing Data, Encoding Categorical Variables, Feature Scaling
