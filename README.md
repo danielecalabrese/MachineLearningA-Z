@@ -6,6 +6,8 @@ https://colab.research.google.com/
 
 Per questi script userò l'ambiente ml311 (python 3.11). 
 
+Come scegliere il giusto stimatore ? [Infografia molto utile](https://scikit-learn.org/stable/machine_learning_map.html)
+
 ## Importante:
 - Con i file ipynb Ricordati di selezionare l'interprete corretto in alto a destra;
 - I numeri delle cartelle sono l'indice delle lezioni sul sito di udemy. I file di esempio hanno indici diversi (le varei sezioni sono raggruppati in parti - vedi sotto);
